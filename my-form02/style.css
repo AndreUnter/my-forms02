@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #BFD7E4;
+    font-family: 'Poppins';
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 454px;
+
+    background: #293241;
+    position: absolute;
+    z-index: -1;
+}
+
+.page {
+    width: 750px;
+    margin: auto;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 107px 0 0 0;
+}
+
+header h1 {
+    font-size: 36px;
+    line-height: normal;
+    color: #FFF;
+    font-family: 'Staatliches';
+    font-weight: 400;
+}
+
+header p {
+    color: #FFF;
+
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+form {
+    min-height: 300px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 64px 64px;
+    margin-bottom: 100px;
+}
+
+fieldset {
+    border: none;
+}
+
+header img {
+    margin-bottom: 32px;
+}
+
+.title-legend {
+    height: 133px;
+    background: #F67669;
+    padding: 50px 275px;
+
+    color: #FFF;
+
+    font-family: 'Staatliches';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+legend {
+    color: #253B51;
+
+    font-family: 'Staatliches';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    border-bottom: 1px solid #E6E6F0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+
+}
+
+.full-name {
+    display: flex;
+    gap: 22px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-wrapper {
+    width: 100%;
+}
+
+.input-wrapper input, textarea, .date-wrapper input {
+    height: 55px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.input-wrapper textarea {
+    height: 166px;
+}
+
+.input-wrapper label, .checkbox label {
+    color: #4E4958;
+
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#mentorship{
+    width: 50%;
+}
+
+.col-3 {
+    display: flex;
+    gap: 10px;
+    margin-top: 34px;
+    
+}
+
+.date-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+}
+
+.form-button button {
+    height: 51px;
+    border-radius: 8px;
+    border: none;
+    background: #F67669;
+    color: #FFF;
+
+    font-family: 'Staatliches';
+    font-size: 20px;
+    font-style: normal;
+    line-height: 26px;
+}
